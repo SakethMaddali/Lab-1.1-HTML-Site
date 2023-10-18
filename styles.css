@@ -1,8 +1,36 @@
-h1 {
-    /* color: rgb(243, 147, 147); */
-    background-color: #cae7df
+.welcome {
+    text-align:center;
+    background-color:#cae7df
+    
 }
 
 body {
-    background-color: #cae7df
+    opacity: 1;
+    background-image: linear-gradient(rgba(255,255,255,.75), rgba(255,255,255,.75)), url(bird-species.webp);
+    background-attachment:fixed;
+    
+    
 }
+
+.divider0{
+    margin:80px;
+}
+.divider1 {
+    background-color: #cae7df;
+    margin:80px;
+}
+.divider2 {
+    margin:80px;
+    background-color: #cae7df;
+}
+.ending {
+    margin:80px;
+}
+.question {
+    margin:80px;
+    background-color: #cae7df;
+}
+.quiztime {
+    text-align: center;
+}
+
