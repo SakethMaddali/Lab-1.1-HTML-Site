@@ -1,19 +1,17 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
         <title>Ultimate Bird Quiz</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <h1 class = 'welcome'>Welcome to the Ultimate Bird Quiz!</h1>
-        <form>
 
             <div class = "divider0">
-                <h5>Follow these links to learn more about parrots before you start!</h5>
-                <a href="https://en.wikipedia.org/wiki/Parrot" class="btn light-green darken-2 modal-trigger">Parrot Facts</a>
-                <a href="https://en.wikipedia.org/wiki/List_of_parrots" class="btn light-green darken-2 modal-trigger">Parrot List</a>
+                <h3>Follow these links to learn more about parrots before you start!</h3>
+                <a href="https://en.wikipedia.org/wiki/Parrot">Parrot Facts</a>
+                <a href="https://en.wikipedia.org/wiki/List_of_parrots">Parrot List</a>
             </div>
 
             <h2 class = "ending">Please enter your information!</h2>
@@ -38,162 +36,86 @@
                     <span><=8th</span>
                 </label>
                 <label>
-                    <input name="year" type="radio" checked />
+                    <input name="year" type="radio" unchecked />
                     <span>9th</span>
                 </label>
                 <label>
-                    <input name="year" type="radio" checked />
+                    <input name="year" type="radio" unchecked />
                     <span>10th</span>
                 </label>
                 <label>
-                    <input name="year" type="radio" checked />
+                    <input name="year" type="radio" unchecked />
                     <span>11th</span>
                 </label>
                 <label>
-                    <input name="year" type="radio" checked />
+                    <input name="year" type="radio" unchecked />
                     <span>12th</span>
                 </label>
                 <label>
-                    <input name="year" type="radio" checked />
+                    <input name="year" type="radio" unchecked />
                     <span>>=12th</span>
                 </label>
             </div>
 
-            <h1 class = "quiztime">Quiz Time!</h1>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
 
-            <div class = "question">
-                <h3>Question 1:</h3>
-                <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/122709381/900" width="500">
-                <h5>What type of bird is this?</h5>
-
-                <label>
-                    <input name="year" type="radio" unchecked />
-                    <span>Grey Parrot</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>White-Winged Parrot</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Cockatiel</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Golden Conure</span>
-                </label>
-
-            </div>
-
-            <div class = "question">
-                <h3>Question 2:</h3>
-                <img src="https://images.birdfact.com/production/what-do-budgies-eat.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1654019211&s=2216a27d88f30224af895db355047d4e" width="500">
-
-                <h5>What type of bird is this?</h5>
-
-                <label>
-                    <input name="year" type="radio" unchecked />
-                    <span>Budgie</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Finch</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Parrotlet</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Lovebird</span>
-                </label>
-
-            </div>
-
-            <div class = "question">
-                <h3>Question 3:</h3>
-                <img src="https://www.uticazoo.org/wp-content/uploads/2021/09/Untitled-design-25.png" width="500">
-
-                <h5>What type of bird is this?</h5>
-
-                <label>
-                    <input name="year" type="radio" unchecked />
-                    <span>Royal Macaw</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Scarlet Macaw</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Hyacinth Macaw</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Blue-and-Yellow Macaw</span>
-                </label>
-
-            </div>
-
-            <div class = "question">
-                <h3>Question 4:</h3>
-                <img src="https://earth.org/wp-content/uploads/2023/05/zdenek-machacek-P4n7NQNOmFU-unsplash-scaled-1200x900.jpg" width="500">
-
-                <h5>What type of bird is this?</h5>
-
-                <label>
-                    <input name="year" type="radio" unchecked />
-                    <span>Hahn's Macaw</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Scarlet Macaw</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Green-Winged Macaw</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Military Macaw</span>
-                </label>
-
-            </div>
-
-            <div class = "question">
-                <h3>Question 5:</h3>
-                <img src="https://a-z-animals.com/media/2021/10/Cockatoo-Cacatuidae-Rose-breasted-Cockatoo-1-e1650466892584-1024x683.jpg" width="500">
-    
-                <h5>What type of bird is this?</h5>
-
-                <label>
-                    <input name="year" type="radio" unchecked />
-                    <span>Pink-Crested Parrot</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Galah Cockatoo</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Cockatiel</span>
-                </label>
-                <label>
-                    <input name="year" type="radio" checked />
-                    <span>Umbrella Cockatoo</span>
-                </label>
- 
-            </div>
-
-            <div class = "ending">
-                <h3>Thanks for playing!</h3>
-                <input type="submit" value="Submit your Quiz!">
-            </div>
-
-
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/122709381/900" style="width:100%">
+                    <div class="text">Question 1</div>
+                </div>
             
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="https://images.birdfact.com/production/what-do-budgies-eat.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1654019211&s=2216a27d88f30224af895db355047d4e" style="width:100%">
+                    <div class="text">Question 2</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="https://www.uticazoo.org/wp-content/uploads/2021/09/Untitled-design-25.png" style="width:100%">
+                    <div class="text">Question 3</div>
+                </div>
     
-        </form>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="https://earth.org/wp-content/uploads/2023/05/zdenek-machacek-P4n7NQNOmFU-unsplash-scaled-1200x900.jpg" style="width:100%">
+                    <div class="text">Question 4</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="https://a-z-animals.com/media/2021/10/Cockatoo-Cacatuidae-Rose-breasted-Cockatoo-1-e1650466892584-1024x683.jpg" style="width:100%">
+                    <div class="text">Question 5</div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <div class="panel">
+                <h1>Now, Time for the Quiz! Good Luck!</h1>
+                <div class="question" id="ques"></div>
+                <div class = "image" id = "img"></div>
+                <div class="options" id="opt"></div>
+                <button onclick="checkAns()" id="btn">SUBMIT</button>
+                <div id="score"></div>
+                <script src="script.js"></script>
+            </div>   
+
     </body>
     
 </html>
